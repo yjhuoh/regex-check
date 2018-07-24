@@ -1,0 +1,25 @@
+{
+  "name": "regexp-check",
+  "version": "1.0.0",
+  "description": "polyfills `check` method onto RegExp instances that behaves sanely",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*.spec.js --bail"
+  },
+  "keywords": [
+    "polyfill",
+    "regular",
+    "expressions",
+    "check",
+    "regexp",
+    "regex"
+  ],
+  "files": ["index.js"],
+  "homepage": "https://github.com/yjhuoh/regexp-check",
+  "author": "yjhuoh@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "code": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
